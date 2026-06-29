@@ -36,8 +36,8 @@ export default function About() {
 
           <div className="flex-1 space-y-5">
             {[
-              "I'm a final-year Software Engineering undergraduate at APIIT Sri Lanka (Staffordshire University), passionate about building real-world applications that are technically solid and great to use.",
-              "Over the past few years I've worked across the full stack — from responsive front-ends in React and Flutter, to secure back-ends with Laravel and Node.js, to cloud deployments on AWS EC2.",
+              "I am a Software Engineering undergraduate (BEng Hons) from Staffordshire University, APIIT–Kandy, with a strong passion for building innovative and scalable software solutions. I have hands-on experience in full-stack development and mobile app development, with proficiency in Python, C#, PHP, Laravel, Java, Kotlin, Flutter, HTML, CSS, TailwindCSS, and JavaScript.",
+              "I have developed web and mobile applications integrating REST APIs, role-based access control, secure authentication, responsive UI, and database management (MySQL, MongoDB, MS SQL Server). My projects include cross-platform mobile apps with Flutter and Kotlin, Laravel-based web systems, and desktop applications, emphasizing OOP principles, MVC/MVVM architecture, and secure coding practices.",
               "I'm actively seeking internship and graduate opportunities at Sri Lankan tech companies. I thrive in collaborative teams, learn fast, and care deeply about clean code and great user experiences.",
             ].map((text, i) => (
               <FadeIn key={i} delay={i * 0.1} direction="left">
