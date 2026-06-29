@@ -1,3 +1,5 @@
+import SEO      from '../components/SEO';
+
 import Hero from "@/components/Hero";
 import About from "@/components/About";
 import Skills from "@/components/Skills";
@@ -19,7 +21,7 @@ export async function getStaticProps() {
 export default function Home() {
   return (
     <>
-
+      <SEO />
       <Hero />
       <About />
       <Skills />
